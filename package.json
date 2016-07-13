@@ -1,0 +1,26 @@
+{
+  "name": "replicating-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-cli": "^13.2.3"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleNameMapper": {
+      "@js": "<rootDir>/app/js",
+      "@stores": "<rootDir>/app/js/stores",
+      "@components": "<rootDir>/app/js/components",
+      "@utils": "<rootDir>/app/js/utils"
+    }
+  }
+}
